@@ -10,7 +10,7 @@ function Navbar() {
 
     return (
         <nav className="bg-[#f5f6fa] border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto px-28">
+            <div className="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto  px-28  xs:px-4  sm:px-6 md:px-12  lg:px-16">
                 <a
                     className="flex items-center space-x-3 rtl:space-x-reverse"
                 >

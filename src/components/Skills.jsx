@@ -23,8 +23,8 @@ const Skills = () => {
 
 
             {/* Skills Quarters */}
-            <div className='px-20 flex flex-row flex-wrap justify-between'>
-                <div className='bg-white relative w-[250px] rounded-xl grid place-items-center p-5 '>
+            <div className='px-20 xs:gap-y-6  flex flex-row flex-wrap justify-between '>
+                <div className='bg-white relative w-[250px]   rounded-xl grid place-items-center p-5 xs:w-full xs:px-0 md:w-[250px]'>
                     <div className='skill-holder mb-2 border-4 p-2 text-center  border-gray-300 rounded-full h-16 w-16'>
                         <img src={frontendicon} className='' alt="Frontend Icon" />
                     </div>
@@ -40,8 +40,8 @@ const Skills = () => {
                         <li className='bg-white'>Redux/Redux Toolkit</li>
                     </ul>
                 </div>
-                <div className='bg-white relative w-[250px] rounded-xl grid place-items-center p-5 '>
-                    <div className='skill-holder mb-2 border-4 p-2 text-center  border-gray-300 rounded-full h-16 w-16'>
+                <div className='bg-white relative w-[250px] rounded-xl grid place-items-center p-5 xs:w-full xs:px-0 md:w-[250px]'>
+                    <div className='skill-holder mb-2 border-4 p-2 text-center  border-gray-300 rounded-full h-16 w-16 '>
                         <img src={backendicon} className='' alt="Frontend Icon" />
                     </div>
                     <h1 className='m-2 font-bold bg-white text-xl'>Back End</h1>
@@ -53,7 +53,7 @@ const Skills = () => {
                         <li className='bg-white'>Stripe</li>
                     </ul>
                 </div>
-                <div className='bg-white relative w-[250px] rounded-xl grid place-items-center p-5 '>
+                <div className='bg-white relative w-[250px] rounded-xl grid place-items-center p-5 xs:w-full xs:px-0 md:w-[250px]'>
                     <div className='skill-holder mb-2 border-4 p-2 text-center  border-gray-300 rounded-full h-16 w-16'>
                         <img src={otherskillsicon} className='' alt="Frontend Icon" />
                     </div>

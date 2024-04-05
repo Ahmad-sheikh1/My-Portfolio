@@ -21,11 +21,11 @@ const Projects = () => {
     return (
         <>
             <h1 className='text-2xl font-bold m-10'>Projects</h1>
-            <div className='flex justify-between flex-row flex-wrap px-20 m-10'>
+            <div className='flex justify-between flex-row flex-wrap px-20 xs:px-4 md:px-2 lg:px-20 m-10 gap-y-10'>
                 {
                     data.map((ele, index) => {
                         return <>
-                            <div class="max-w-72 rounded overflow-hidden shadow-lg">
+                            <div class="max-w-72 xs:w-full  rounded overflow-hidden shadow-lg ">
                                 <img class="w-full" src={ele.img} alt="Sunset in the mountains" />
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">{ele.title}</div>
