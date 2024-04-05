@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const About = () => {
     return (
         <>
-            <section className='m-16' >
+            <section className='m-16' id="AboutP" >
                 <div className='flex justify-between items-center  p-20 xs:p-0 xs:relative xs:right-16 sm:right-0  xs:block sm:flex md:flex lg:p-20 '>
                     <div className='w-[400px] xs:w-[280px] md:w-[400px] lg:h-[400px]   text-left '>
                         <h3 className='text-[#342b29] mb-1 ' >Hello, my name is</h3>

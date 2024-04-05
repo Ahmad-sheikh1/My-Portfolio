@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <>
 
-            <div className="container m-auto mb-8">
+            <div id='SkillP' className="container m-auto mb-8">
                 <h3 className="font-bold text-center">SKILLS</h3>
                 <p className="text-center my-2">
                     Below is a quick overview of my main technical skill sets and tools I use.
@@ -23,7 +23,7 @@ const Skills = () => {
 
 
             {/* Skills Quarters */}
-            <div className='px-20 xs:px-0 xs:m-auto xs:gap-y-6 lg:px-20  flex flex-row flex-wrap justify-between '>
+            <div  className='px-20 xs:px-0 xs:m-auto xs:gap-y-6 lg:px-20  flex flex-row flex-wrap justify-between '>
                 <div className='bg-white relative w-[250px]   rounded-xl grid place-items-center p-5 xs:w-full xs:px-20   md:w-[250px]'>
                     <div className='skill-holder mb-2 border-4 p-2 text-center  border-gray-300 rounded-full h-16 w-16'>
                         <img src={frontendicon} className='' alt="Frontend Icon" />

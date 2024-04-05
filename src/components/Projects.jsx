@@ -20,12 +20,12 @@ const Projects = () => {
     ]
     return (
         <>
-            <h1 className='text-2xl font-bold m-10 xs:my-2 xs:mx-0  lgm-10'>Projects</h1>
+            <h1 id='ProjectsP' className='text-2xl font-bold m-10 xs:my-2 xs:mx-0  lg:m-10 '>Projects</h1>
             <div className='flex justify-between  flex-row flex-wrap px-20 xs:px-0 md:px-2 lg:px-20 m-10 gap-y-10'>
                 {
                     data.map((ele, index) => {
                         return <>
-                            <div key={index} class="max-w-72 xs:w-full sm:w-1/2 md:w-1/2 lg:w-72 rounded overflow-hidden shadow-lg ">
+                            <div  key={index} class="max-w-72 xs:w-full sm:w-1/2 md:w-1/2 lg:w-72 rounded overflow-hidden shadow-lg ">
                                 <img class="w-full" src={ele.img} alt="Sunset in the mountains" />
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">{ele.title}</div>
