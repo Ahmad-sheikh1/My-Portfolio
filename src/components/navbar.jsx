@@ -10,12 +10,12 @@ function Navbar() {
 
     return (
         <nav className="bg-[#f5f6fa] border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto  px-28  xs:px-4  sm:px-6 md:px-12  lg:px-16">
+            <div className="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto  px-28  xs:px-0  sm:px-6 md:px-12  lg:px-16">
                 <a
                     className="flex items-center space-x-3 rtl:space-x-reverse"
                 >
                     
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                    <span className="self-center xs:text-lg  text-2xl font-semibold whitespace-nowrap dark:text-white">
                         MERN Stack Developer
                     </span>
                 </a>
@@ -26,7 +26,7 @@ function Navbar() {
                 >
                     <span className="sr-only">Open main menu</span>
                     <svg
-                        className="w-5 h-5"
+                        className="w-5 h-5 "
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"

@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': '640px',
+      'sm': '600px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -23,7 +23,7 @@ export default {
     },
     extend: {
       screens: {
-        'xs': '500px', 'max': '640px',
+        'xs': '320px', 'max': '600px',
         // => @media (min-width: 992px) { ... }
       },
     },
