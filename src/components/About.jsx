@@ -13,7 +13,7 @@ const About = () => {
                         <p className='text-[#788188] mb-2 items-center'>I'm a full-stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications. Want to know how I may help your project? Check out my projects from my GitHub Profile.
                             <span className='ml-2 text-black text-xl inline-block'>  <FaGithub />  </span><a href="https://github.com/Ahmad-sheikh1" className='ml-1 text-black font-bold text-xl'>Profile</a>
                         </p>
-                        <a href='https://drive.google.com/file/d/1JIIO9HasNZF4C3kholzciG6wp2MOhshg/view' className='bg-black p-2 text-xs  rounded text-white'>My Resume</a>
+                        <a href='https://drive.google.com/file/d/141uSch8F8knT_O_1EgcMOwnAlYWl7ROL/view?usp=drive_link' className='bg-black p-2 text-xs  rounded text-white'>My Resume</a>
                     </div>
                     <div>
                         <img src={photo} className="profile-image mb-3 lg:mb-32 mx-auto w-1/2 md:w-50 rounded-full border-8 mr-4 border-[#cad3c8] xs:ml-14 xs:my-8 xs:w-full sm:w-[200px] md:my-0 lg:my-0   md:ml-0 " alt="..." />
