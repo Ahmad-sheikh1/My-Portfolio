@@ -12,9 +12,9 @@ import Library from "/Library.png";
 
 const Projects = () => {
     const data = [
-        { title: "Real-Time-Collaborative-Document-Editing-System", img: realtime,  repolink: "https://github.com/Ahmad-sheikh1/real-time-collaborative-document-editing-system", tools: ["React", "Node", "Express" , "MongoDB" , "Quill.js" , "Redux-Toolkit" , "Socket.io"] },
-        { title: "Sharp Image Module", img: sharpimagemodule, repolink: "https://github.com/Ahmad-sheikh1/Sharp-Image-Module", tools: ["React", "Node", "Express" , "sharp.js" , "teserract.js"] },
-        { title: "Library Managment System", img: Library, repolink: "https://github.com/Ahmad-sheikh1/Library-Management-System", tools: ["Angular", "ngrx", "Node" , "Multer" , "Express" , "MySql" , "Cloudinary"] },
+        { title: "Real-Time-Collaborative-Document-Editing-System", img: realtime, repolink: "https://github.com/Ahmad-sheikh1/real-time-collaborative-document-editing-system", tools: ["React", "Node", "Express", "MongoDB", "Quill.js", "Redux-Toolkit", "Socket.io"] },
+        { title: "Sharp Image Module", img: sharpimagemodule, repolink: "https://github.com/Ahmad-sheikh1/Sharp-Image-Module", tools: ["React", "Node", "Express", "sharp.js", "teserract.js"] },
+        { title: "Library Managment System", img: Library, repolink: "https://github.com/Ahmad-sheikh1/Library-Management-System", tools: ["Angular", "ngrx", "Node", "Multer", "Express", "MySql", "Cloudinary"] },
         { title: "Shoe Store", img: ShoesStore, livelink: "https://tasty-polo-shirt-dove.cyclic.app/", repolink: "https://github.com/Ahmad-sheikh1/Shoes-Website-MERN", tools: ["React", "Node", "MongoDB", "Express", "Tailwind", "jwt", "Google-auth"] },
         { title: "Bucket Expense Store", img: BucketStore, livelink: "https://bucket-store-ahmadsh.vercel.app/", repolink: "https://github.com/Ahmad-sheikh1/Bucket-Store", tools: ["Next", "MaterialUI", "Redux Toolkit", "Typescript"] },
         { title: "Github CEO Explorer", img: GithubCEO, livelink: "https://jazzy-khapse-3752a0.netlify.app/", repolink: "https://github.com/Ahmad-sheikh1/First-typescript-Project", tools: ["Typecript", "HTML5", "CSS3"] },
@@ -36,9 +36,9 @@ const Projects = () => {
                                     <a class="text-[#212529] bg-[#f8f9fa] " href={ele.livelink}>
                                         Live Link
                                     </a> <br />
-                                    <a href={ele.repolink} class="text-[#212529] bg-[#f8f9fa] ">
-                                        <span className='ml-2 text-black text-xl inline-block'>  <FaGithub />  </span><a href="" className='ml-1 text-black font-bold text-xl'>Repo Link</a>
-
+                                    <a href={ele.repolink} target="_blank" class="text-[#212529] bg-[#f8f9fa] ">
+                                        <FaGithub className='ml-2 text-black text-xl inline-block' />
+                                        <span className='ml-1 text-black font-bold text-xl'>Repo Link</span>
                                     </a>
                                 </div>
                                 <div class="px-6 pt-4 pb-2">
