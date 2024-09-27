@@ -6,11 +6,15 @@ import GithubCEO from "/GithubCEO.png";
 import QuizApp from "/QuizApp.png";
 import ExpenseT from "/ExpenseT.png";
 import WeatherApp from "/WeatherApp.png"
-
-
+import realtime from "/realtime.png"
+import sharpimagemodule from "/sharpimagemodule.png";
+import Library from "/Library.png";
 
 const Projects = () => {
     const data = [
+        { title: "Real-Time-Collaborative-Document-Editing-System", img: realtime,  repolink: "https://github.com/Ahmad-sheikh1/real-time-collaborative-document-editing-system", tools: ["React", "Node", "Express" , "MongoDB" , "Quill.js" , "Redux-Toolkit" , "Socket.io"] },
+        { title: "Sharp Image Module", img: sharpimagemodule, repolink: "https://github.com/Ahmad-sheikh1/Sharp-Image-Module", tools: ["React", "Node", "Express" , "sharp.js" , "teserract.js"] },
+        { title: "Library Managment System", img: Library, repolink: "https://github.com/Ahmad-sheikh1/Library-Management-System", tools: ["Angular", "ngrx", "Node" , "Multer" , "Express" , "MySql" , "Cloudinary"] },
         { title: "Shoe Store", img: ShoesStore, livelink: "https://tasty-polo-shirt-dove.cyclic.app/", repolink: "https://github.com/Ahmad-sheikh1/Shoes-Website-MERN", tools: ["React", "Node", "MongoDB", "Express", "Tailwind", "jwt", "Google-auth"] },
         { title: "Bucket Expense Store", img: BucketStore, livelink: "https://bucket-store-ahmadsh.vercel.app/", repolink: "https://github.com/Ahmad-sheikh1/Bucket-Store", tools: ["Next", "MaterialUI", "Redux Toolkit", "Typescript"] },
         { title: "Github CEO Explorer", img: GithubCEO, livelink: "https://jazzy-khapse-3752a0.netlify.app/", repolink: "https://github.com/Ahmad-sheikh1/First-typescript-Project", tools: ["Typecript", "HTML5", "CSS3"] },
@@ -25,7 +29,7 @@ const Projects = () => {
                 {
                     data.map((ele, index) => {
                         return <>
-                            <div  key={index} class="max-w-72 xs:w-full sm:w-1/2 md:w-1/2 lg:w-72 rounded overflow-hidden shadow-lg ">
+                            <div key={index} class="max-w-72 xs:w-full sm:w-1/2 md:w-1/2 lg:w-72 rounded overflow-hidden shadow-lg ">
                                 <img class="w-full" src={ele.img} alt="Sunset in the mountains" />
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">{ele.title}</div>
